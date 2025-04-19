@@ -29,7 +29,6 @@ df_quarters, df_top_teams, df_players_40, df_summary = load_data()
 # --------------------
 st.header("⏱️ Most Scoring Quarter per Team")
 
-print(df_quarters.columns)
 col1, col2 = st.columns([1, 2])
 with col1:
     st.dataframe(df_quarters.drop(columns=['Unnamed: 0']))

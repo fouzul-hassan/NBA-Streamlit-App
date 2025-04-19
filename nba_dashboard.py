@@ -8,7 +8,7 @@ st.set_page_config(page_title="NBA Dashboard", layout="wide")
 # Header
 # --------------------
 st.title("🏀 NBA Play-by-Play Analysis Dashboard")
-st.subheader("CMM705 - Big Data Programming Coursework (2024/25)")
+# st.subheader("CMM705 - Big Data Programming Coursework (2024/25)")
 st.markdown("This dashboard presents key insights from historical NBA play-by-play data, including team performance, player highlights, and match outcomes.")
 
 # --------------------
@@ -87,4 +87,4 @@ with col8:
 # Footer
 # --------------------
 st.markdown("---")
-st.markdown("🔍 *All data and analysis are static and sourced from prepared CSV files.*")
+st.markdown("🔍 *All data and analysis are somewhat static and sourced from prepared CSV files and this dashboard is related with CMM705 - Big Data Programming Coursework.*")
